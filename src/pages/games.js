@@ -1,24 +1,14 @@
 import React from "react";
 import "semantic-ui-css/semantic.css";
-import { Menu, Container, Header, Card, Grid } from "semantic-ui-react";
-import { Link } from "gatsby";
+import { Container, Header, Card, Grid } from "semantic-ui-react";
 import GameCard from "../components/gameCard.js";
+import NavBar from "../components/navbar";
 
 const GamesPage = () => {
   return (
     <React.Fragment>
       <Container>
-        <Menu>
-          <Link to="/">
-            <Menu.Item icon="home"></Menu.Item>
-          </Link>
-          <Link to="/games">
-            <Menu.Item icon="game"></Menu.Item>
-          </Link>
-          <Link to="/contact">
-            <Menu.Item icon="users"></Menu.Item>
-          </Link>
-        </Menu>
+        <NavBar></NavBar>
         <Header as="h1">Games</Header>
         <Grid>
           <Card.Group>

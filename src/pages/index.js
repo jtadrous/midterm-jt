@@ -1,23 +1,13 @@
 import React from "react";
 import "semantic-ui-css/semantic.css";
-import { Menu, Container, Segment, Header, Button } from "semantic-ui-react";
-import { Link } from "gatsby";
+import { Container, Segment, Header, Button } from "semantic-ui-react";
+import NavBar from "../components/navbar";
 
 const IndexPage = () => {
   return (
     <React.Fragment>
       <Container>
-        <Menu>
-          <Link to="/">
-            <Menu.Item icon="home"></Menu.Item>
-          </Link>
-          <Link to="/games">
-            <Menu.Item icon="game"></Menu.Item>
-          </Link>
-          <Link to="/contact">
-            <Menu.Item icon="users"></Menu.Item>
-          </Link>
-        </Menu>
+        <NavBar></NavBar>
         <Segment textAlign="center">
           <Header as="h1">Home</Header>
           <p>Some random text that needs not readen.</p>
