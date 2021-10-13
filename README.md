@@ -1,3 +1,9 @@
+Project: Midterm Project, 
+Name: Julie Tadrous, 
+Desc: This project has a home page, games page, and contact page.,
+Web4Link: https://in-info-web4.informatics.iupui.edu/~jtadrous/N322/midterm-jt/
+
+
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
     <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
