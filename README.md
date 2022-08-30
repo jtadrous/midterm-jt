@@ -3,6 +3,8 @@ Name: Julie Tadrous,
 Desc: This project has a home page, games page, and contact page.,
 Web4Link: https://in-info-web4.informatics.iupui.edu/~jtadrous/N322/midterm-jt/
 
+*link currently down
+
 
 <p align="center">
   <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
